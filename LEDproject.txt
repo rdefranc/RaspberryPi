@@ -1,0 +1,18 @@
+from time import sleep
+from gpiozero import LED
+pin_number = 3
+print "Starting our program!"
+print "LED connected to GPIO Pin: " +str(pin_number)
+led = LED(pin_number)
+print "Turning LED on..."
+led.on()
+print "waiting for 3 seconds..."
+sleep(3)
+print "Turning LED off..."
+led.off()
+print "Finished! Exiting program now..."
+
+
+
+//////////
+https://studio.code.org/s/20-hour/stage/5/puzzle/1
